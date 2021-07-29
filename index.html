@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawsome/fontawesome-free-5.15.3-web/css/all.min.css">
+</head>
+<body>
+    <div class="nav" id="home">
+        <div class="nav__options">
+            <ul>
+                <li><a href="#home" class="nav__option">Home</a></li>
+                <li><a href="#band" class="nav__option">Band</a></li>
+                <li><a href="#tourdate" class="nav__option">Tour</a></li>
+                <li><a href="#contacid" class="nav__option">Contact</a></li>
+                <li>
+                    <a href="#" class="nav__option">More <i class="fa fa-caret-down"></i></a>
+                    <ul class="subnav__options">
+                        <li><a href="#" class="subnav__option">Mechandise</a></li>
+                        <li><a href="#" class="subnav__option">Etras</a></li>
+                        <li><a href="#" class="subnav__option">Media</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="search-btn clearfix">
+            <div class="search-btn__icon">
+                <i class="fa fa-search"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- content -->
+    <!-- slider -->
+    <div class="slider">
+        <img src="img/chicago.jpg" alt="img" width="100%">
+        <div class="slider__text">
+            <h3 class="font--large">Chicago</h3>
+            <p class="font--medium--boid">Thank you, Chicago - A night we won't forget.</p>
+        </div>
+    </div>
+
+    <!-- About -->
+
+    <div class="about center" id="band">
+        <div class="about__title">
+            <h4 class="font--large">THE BAND</h4>
+            <p class="opacity">We love music</p>
+        </div>
+        <div class="about__content">
+            <p class="about-text">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="about__list">
+            <div class="about__item">
+                <p class="about__item--name">Name</p>
+                <img src="img/bandmember.jpg" alt="img" width="100%">
+            </div>
+            <div class="about__item">
+                <p class="about__item--name">Name</p>
+                <img src="img/bandmember.jpg" alt="img" width="100%">
+            </div>
+            <div class="about__item">
+                <p class="about__item--name">Name</p>
+                <img src="img/bandmember.jpg" alt="img" width="100%">
+            </div>
+        </div>
+    </div>
+    <!-- TOUR DATE -->
+    <div class="tour" id="tourdate">
+        <div class="tour__content center">
+            <div class="tour__title">
+                <h2 class="tour--heading">TOUR DATES</h2>
+                <p class="tour--subheading">Remember to book your tickets!</p>
+            </div>
+            <div class="tour__tickets">
+                <div class="ticket">
+                    <p class="month">September <span class="sold">Sold out</span></p> 
+                </div>
+                <div class="ticket">
+                    <p class="month">October <span class="sold">Sold out</span></p> 
+                </div>
+                <div class="ticket clearfix">
+                    <p class="month">November <span class="over">3</span></p> 
+                </div>
+            </div>
+
+            <div class="tour__info">
+                <div class="tour__item">
+                    <img src="img/newyork.jpg" alt="img" width="100%">
+                    <div class="tour__text">
+                        <h5 class="tour__text--title">New York</h5>
+                        <p class="tour__text--date">Fri 27 Nov 2016</p>
+                        <p class="tour__text--des">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                        <button class="btn--buy"> Buy Tickets</button>
+                    </div>
+                </div>
+                <div class="tour__item">
+                    <img src="img/paris.jpg" alt="img" width="100%">
+                    <div class="tour__text">
+                        <h5 class="tour__text--title">Paris</h5>
+                        <p class="tour__text--date">Sat 28 Nov 2016</p>
+                        <p class="tour__text--des">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                        <button class="btn--buy"> Buy Tickets</button>
+                    </div>
+                  
+                </div>
+                <div class="tour__item">
+                    <img src="img/sanfran.jpg" alt="img" width="100%">
+                    <div class="tour__text">
+                        <h5 class="tour__text--title">San Francisco                        </h5>
+                        <p class="tour__text--date">Sun 29 Nov 2016</p>
+                        <p class="tour__text--des">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                        <button class="btn--buy"> Buy Tickets</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact -->
+    <div class="contact center clearfix" id="contacid">
+        <h2>CONTACT</h2>
+        <p>Fan? Drop a note!</p>
+
+        <div class="contact__info clearfix">
+            <div class="inform"><p><span class="contact-icon">
+                <i class="fa fa-map-marker-alt"></i></span> Chicago, US</p>
+            </div>
+            <div class="inform"><p><span class="contact-icon">
+                <i class="fa fa-phone-alt"></i></span> Phone: +00 151515</p>
+            </div>
+            <div class="inform"><p><span class="contact-icon">
+                <i class="fa fa-envelope"></i></span> Phone: +00 151515</p>
+            </div>
+        </div>
+        <div class="form clearfix">
+            <div class="form-1 clearfix">
+                <input type="text" placeholder="Name" class="form__input name">
+                <input type="text" placeholder="Email" class="form__input email">
+            </div>
+            <input type="text" placeholder="Message" class="form__input message"> 
+            <button class="btn-send">SEND</button>
+        </div>
+    </div>
+    <div class="map">
+        <img src="img/map.jpg" alt="map" width="100%">
+    </div>
+
+
+
+    <div class="footer">
+        <div class="logo">
+            <p>
+                Template from w3s
+        </p>
+        </div>
+    </div>
+</body>
+</html>

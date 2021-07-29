@@ -1,0 +1,287 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.clearfix{
+    overflow: hidden;
+}
+.nav{
+    height: 46px;
+    background-color: #000;
+    position: fixed;
+    width: 100%;
+    top:0;
+    z-index: 1;
+}
+.nav__option,.subnav__option{
+    text-decoration: none;
+}
+.nav__options{
+    position: relative;
+    float: left;
+}
+.nav__options  li{
+    display: inline-block;
+    text-align: center;
+}
+.subnav__options{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+}
+.subnav__options li {
+    display: block;
+    text-align: left;
+}
+.subnav__options li a {
+    padding: 10px 12px ;
+    display: block;
+    min-width: 150px;
+    color: #000;
+}
+.subnav__options a:hover{
+    background-color: #ccc;
+}
+.nav__options li:hover .subnav__options{
+    display: block;
+}
+.nav__option{
+    display: inline-block;
+    color: #fff;
+    padding: 13px 24px;
+    min-width: 100px;
+    text-transform: uppercase;
+}
+.nav__option:hover{
+    background-color: #ccc;
+    color: #000;
+}
+.search-btn{
+    color: #fff;
+    float: right;
+    padding: 14px 20px;
+}
+.search-btn:hover{
+    background-color:#f44336 ;
+    cursor: pointer;
+}
+.slider{
+    margin: auto;
+    max-width: 2000px;
+    margin-top:46px;
+    position: relative;
+}
+.slider__text{
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top:80%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.font--large{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 18px;
+}
+.font--medium--boid{
+    font-weight: bold;
+}
+.center{
+    max-width: 800px;
+    padding-top: 64px!important;
+    padding-bottom: 64px!important;
+    margin: auto;
+}
+.about__title{
+    text-align: center;
+    margin-bottom: 18px;
+}
+.opacity{
+    opacity: 0.7;
+}
+.about-text{
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 15px;
+}
+.about__list{
+    margin-top: 44px;
+    margin-bottom: 54px;
+    display: flex;
+    justify-content: space-around;
+}
+.about__item{
+    width: 24.99%;
+    padding: 18px;
+    text-align: center;
+    
+}
+.about__item img{
+    border-radius: 5px;
+}
+.about__item--name{
+    padding-bottom: 18px;
+}
+.tour{
+    background-color: #000;
+    color: #fff;
+}
+.tour__title{
+    text-align: center;
+    padding-bottom: 42px;
+}
+.tour--heading{
+    color: #fff;
+    padding-bottom: 18px;
+}
+.tour--subheading{
+    color: #fff;
+    opacity: 0.7;
+    font-style: italic;
+}
+.tour__tickets{
+    background-color: #fff;
+    color: #000;
+    margin-bottom: 42px;
+}
+.ticket{
+    padding: 8px 16px;
+    border-bottom: 1px solid #eee;
+}
+.sold{
+    display: inline-block;
+    background-color: #f44336!important;
+    padding: 2px 8px;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 16px!important;
+}
+.over{
+    float: right;
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    padding: 0px 4px;
+    margin-right: 16px!important;
+}
+.tour__info
+{
+    display: flex;
+    justify-content: space-between;
+    margin-left: -20px;
+}
+.tour__item{
+    width: 33.33%;
+    margin-left: 20px;
+    background-color: #fff;
+    color: black;
+    
+}
+.tour__text{
+    padding: 16px;
+}
+.tour__text--title{
+    padding-bottom: 16px;
+    font-size: 18px;
+}
+.tour__text--date{
+    padding-bottom: 16px;
+    opacity: 0.7;
+}
+.tour__text--des{
+    line-height: 1.5;
+    padding-bottom: 16px;
+    font-size: 15px;
+}
+.btn--buy{
+    font-size: 16px;
+    padding: 8px 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+.btn--buy:hover{
+    background-color: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+
+.contact > h2,.contact > p{
+    padding-bottom: 28px;
+    text-align: center;
+}
+.contact > h2{
+    font-size: 30px;
+}
+.contact > p{
+    opacity: 0.75;
+}
+.contact-icon{
+    padding-right: 16px;
+}
+.contact__info{
+    width: 49.9999%;
+    font-size: 17px;
+    float: left;
+}
+.form{
+    font-size: 17px;
+    width: 49.9999%;
+    float: right;
+}   
+.inform{
+    margin-bottom: 10px;
+ }
+.form__input{
+     padding: 10px 16px;
+ }
+.name{
+    width: 49.99%;
+}
+.email{
+    width: calc(49.99% - 25px);
+    margin-left: 20px;
+}
+.form-1{
+    margin-bottom: 8px;
+}
+.message{
+    width: 100%;
+}
+.btn-send{
+    margin-top: 16px;
+    padding: 8px 24px;
+    float: right;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #eee
+}
+.btn-send:hover{
+    background-color: #ccc;
+    color: #000;
+}
+.map{
+    margin-bottom: 64px;
+}
+.footer{
+   height: 100px;
+   background-color: #000;
+   position: relative;
+}
+.logo{
+    color: #fff;;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    text-decoration: underline;
+}
